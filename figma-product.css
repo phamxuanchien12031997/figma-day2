@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    margin: 42px;
+}
+
+.main button {
+    background-color: white;
+}
+
+.main-update {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.main-update-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-update p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-update button {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.main-menu-view {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.import-add {
+    display: flex;
+    gap: 10px;
+}
+
+.import, .menu-add {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.menu-add, .menu-add button {
+    background-color: rgb(137, 43, 226);
+}
+
+.main-menu button, .main-menu input {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-menu-view button {
+    border: none;
+    border-right: 1px solid gray;
+    border-radius: 0;
+}
+
+.main-menu-view button:nth-child(3) {
+    border-right: none;
+}
+
+.main-menu-search {
+    display: flex;
+    gap: 10px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    gap: 5px;
+    padding-left: 10px;
+}
+
+.filter button {
+    border: none;
+}
+
+.main-menu input {
+    outline: none;
+    width: 500px;
+}
+
+.main-table {
+    margin: 20px;
+}
+
+table {
+    border-spacing: 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    border-collapse: separate;
+    overflow: hidden;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}

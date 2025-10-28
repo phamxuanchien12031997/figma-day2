@@ -37,15 +37,17 @@ body {
     border-radius: 5px;
     padding: 5px;
     cursor: pointer;
+    outline: none;
 }
 
 .main-form-select {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: left;
     border: 1px solid gray;
     border-radius: 5px;
     padding: 3px;
+    gap: 10px;
 }
 
 #country {
@@ -55,6 +57,7 @@ body {
 
 .main-form-select input {
     border: none;
+  outline: none;
 }
 
 .form-submit textarea {
